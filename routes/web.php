@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('miprimerlayout', function () {
-    return view('layout.app');
+Route::get('HelloWorld', function () {
+    return view('welcome');
 });
+Route::get('/miprimerlayout', 'Controller@layout');
